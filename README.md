@@ -1,6 +1,12 @@
 # Matrix library to solve linear system
 
-This is a group assignment for the Advanced Programming module in the Applied Computational Science and Engineering course.
+This library can solve matrices stored in dense or sparse format. The implemented solvers include:
+
+1. Gauss-Seidel solver
+2. Jacobi solver
+3. LU decomposition
+
+All 3 are implemented for dense matrices, and the first 2 are implemented for sparse matrices.
 
 Compile and run `interface.cpp` to use the interface and linear solver.
 
