@@ -1,6 +1,8 @@
 # Matrix library to solve linear system
 
-This library can solve matrices stored in dense or sparse format. The implemented solvers include:
+This library can solve matrices stored in dense or sparse format. Dense matrix class is contained in `Matrix.h` and member functions are implemented in `Matrix.cpp`, while sparse matrix class is contained in `CSRMatrix.h` and member functions are implemented in `CSRMatrix.cpp`. 
+
+The implemented solvers include:
 
 1. Gauss-Seidel solver
 2. Jacobi solver
